@@ -1,0 +1,28 @@
+# python=~3.9!
+
+sortedcontainers==2.4.0
+regex==2022.10.31
+
+requests
+sbatcher==0.0.0a6
+fairseq==0.12.2
+tensorboard
+tensorboardX
+datasets==2.9.0
+editdistance==0.6.2
+scikit-learn==1.2.1
+statsmodels==0.13.5
+transformers==4.30.2
+
+
+# datasets/wikipedia dependencies
+apache_beam==2.44.0
+mwparserfromhell==0.6.4
+tqdm==4.64.1
+
+# nltk==3.8.1  # probably going to abandon this
+
+# in-house talkbank stuff
+# git+ssh://git@source.ohsu.edu/aphasia-automation/talkbank-client.git#egg=talkbankclient
+# git+ssh://git@source.ohsu.edu/aphasia-automation/chatfile.git#egg=chatfile
+
